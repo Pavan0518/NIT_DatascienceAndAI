@@ -26,24 +26,3 @@ for i in range(1, 31):
         print(i, 'cannot divide by 5.')
         
         
-print('----------------------------------')
-
-for i in range(1, 11):
-    if i == 5:
-        break
-    print(i)
-    
-    
-print('----------------------------------')
-
-for i in range(1, 11):
-    if i == 6:
-        break
-    print(i)
-    
-print('----------------------------------')
-
-for i in range(1, 11):
-    if i == 6:
-        continue
-    print(i)
